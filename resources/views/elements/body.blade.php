@@ -1,14 +1,14 @@
 <div class="fh5co-loader"></div>
 	
 	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url({{asset('assets/images/cover_bg_3.jpg')}});" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div class="profile-thumb" style="background: url({{asset('assets/images/user-3.jpg')}});"></div>
 							<h1><span>Vagif AHMADOV</span></h1>
 							<h3><span>Web Developer | Designer</span></h3>
 							<p>
@@ -355,7 +355,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-1.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Illustration</span>
@@ -363,7 +363,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-2.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Brading</span>
@@ -371,7 +371,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-3.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Illustration</span>
@@ -379,7 +379,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-4.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Design</span>
@@ -387,7 +387,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-5.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Website</span>
@@ -395,7 +395,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-6.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Illustration</span>
@@ -403,7 +403,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-7.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Brading</span>
@@ -411,7 +411,7 @@
 					</a>
 				</div>
 				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+					<a href="#" class="work" style="background-image: url({{asset('assets/images/portfolio-8.jpg')}});">
 						<div class="desc">
 							<h3>Project Name</h3>
 							<span>Illustration</span>
@@ -433,7 +433,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url({{asset('assets/images/portfolio-1.jpg')}});"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Photoshoot On The Street</a></h3>
@@ -448,7 +448,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url({{asset('assets/images/portfolio-2.jpg')}});"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Surfing at Philippines</a></h3>
@@ -463,7 +463,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-blog animate-box">
-						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+						<a href="#" class="blog-bg" style="background-image: url({{asset('assets/images/portfolio-3.jpg')}});"></a>
 						<div class="blog-text">
 							<span class="posted_on">Mar. 15th 2016</span>
 							<h3><a href="#">Capture Living On Uderwater</a></h3>
@@ -494,7 +494,7 @@
 	</div>
 
 	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+		<div class="video fh5co-video" style="background-image: url({{asset('assets/images/cover_bg_1.jpg')}});">
 			<div class="overlay"></div>
 		</div>
 		<div class="choose animate-box">
