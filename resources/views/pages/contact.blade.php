@@ -6,7 +6,7 @@
 	<div id="page">
 		@include("elements.header_page")
 		@include("elements.navbar")
-		@include("content_pages.index")
+		@include("content_pages.contacts")
 		@include("elements.footer")
 	</div>
 </body>

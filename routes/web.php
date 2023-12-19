@@ -15,13 +15,10 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
-
-Route::get('/help', function (){
-    return view('wellcome');
-});
+Route::get('/', function () {return view('pages.index');})->name('home');
+Route::get('/help', function (){return view('welcome');})->name('help');
+Route::get('/podcasts', function (){return view('pages.podcasts');})->name('podcasts');
+Route::get('/contact', function (){return view('pages.contact');})->name('contact');
 
 // Route::get( "/hi", function(){
 //     return view('hi');
