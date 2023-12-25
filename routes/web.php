@@ -1,8 +1,10 @@
 <?php
 
-use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PodcastsController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\Documentary;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,15 +17,14 @@ use App\Http\Controllers\Controller;
 |
 */
 
-Route::get('/', function () {return view('pages.index');})->name('home');
-Route::get('/help', function (){return view('welcome');})->name('help');
-Route::get('/podcasts', function (){return view('pages.podcasts');})->name('podcasts');
-Route::get('/contact', function (){return view('pages.contact');})->name('contact');
+// Route::get('/', "TestController@test_page")->name('home');
+Route::get('/', [HomeController::class, "index"])->name('home');
+Route::get('/podcasts', [PodcastsController::class, "podcast_page"])->name('podcasts');
+Route::get('/contact', [ContactController::class, "contact_page"])->name('contact');
+Route::get('/help', [Documentary::class, 'doc'])->name('help');
+Route::get('/about', [Documentary::class, 'about']);
 
 // Route::get( "/hi", function(){
 //     return view('hi');
 // }
 // );
-
-Route::get('/con', [MainController::class, "index_cont"]);
-
