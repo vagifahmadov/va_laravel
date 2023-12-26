@@ -21,6 +21,7 @@ use App\Http\Controllers\Documentary;
 Route::get('/', [HomeController::class, "index"])->name('home');
 Route::get('/podcasts', [PodcastsController::class, "podcast_page"])->name('podcasts');
 Route::get('/contact', [ContactController::class, "contact_page"])->name('contact');
+Route::post('/contact', [ContactController::class, "contact_form"]);
 Route::get('/help', [Documentary::class, 'doc'])->name('help');
 Route::get('/about', [Documentary::class, 'about']);
 

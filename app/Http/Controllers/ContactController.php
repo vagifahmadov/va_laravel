@@ -10,4 +10,8 @@ class ContactController extends Controller
     public function contact_page(){
         return view('pages.contact');
     }
+
+    public function contact_form(Request $request){
+        dd($request->all());
+    }
 }
